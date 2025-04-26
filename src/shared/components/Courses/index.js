@@ -82,8 +82,10 @@ const CourseSelector = ({data}) => {
      onClick={handleClick}
      endIcon={<ArrowDropDownIcon />}
      sx={{
-      minWidth: 120,
-      justifyContent: 'space-between',
+       minWidth: 202,
+    
+       justifyContent: 'space-between',
+      
       textTransform: 'none',
      }}
     >
