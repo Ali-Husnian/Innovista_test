@@ -1,0 +1,27 @@
+* {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+*::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.dimming-effect {
+  font-size: 80px;
+  color: #3330E4;
+  animation: dimAnimation 1.2s infinite;
+}
+
+@keyframes dimAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
